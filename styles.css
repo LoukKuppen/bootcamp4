@@ -1,0 +1,28 @@
+body {
+  background: #E3516E;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  align-content: center;
+}
+
+div {
+  width: 400px;
+  height: 400px;
+  background: #dd6b4d;
+}
+
+#top-left {
+  background: #51B5A9;
+  border-radius: 100% 0 0;
+}
+
+#top-right {
+  background: #FADE8B;
+  border-radius: 0 100% 0 0;
+}
+
+#bottom-left {
+  background: #F7F3D7;
+  border-radius: 0 0 0 100%;
+}
