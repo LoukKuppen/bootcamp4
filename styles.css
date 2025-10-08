@@ -6,6 +6,11 @@ body {
   align-content: center;
 }
 
+@keyframes colorchange {
+  0% {background-color: red;}
+  100% {background-color: yellow;}
+}
+
 div {
   width: 400px;
   height: 400px;
@@ -15,6 +20,7 @@ div {
 #top-left {
   background: #51B5A9;
   border-radius: 100% 0 0;
+    animation: colorchange 2s infinite alternate;
 }
 
 #top-right {
